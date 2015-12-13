@@ -1,0 +1,176 @@
+		* {
+			margin: 0;
+			padding: 0;
+		}
+
+		body {
+			font-family: "Microsoft Yahei", "宋体";
+			font-size: 12px;
+		}
+
+		a:link, a:visited {
+			text-decoration: none;
+		}
+
+		a:hover {
+			text-decoration: underline;
+		}
+
+		#wrap {
+			width: 780px;
+			padding: 0 10px 10px;
+			border-left: 1px solid #e7e7e7;
+			border-right: 1px solid #e7e7e7;
+			margin: 0 auto;
+		}
+
+		#header {
+			width: 100%;
+		}
+
+		#logo {
+			width: 100%;
+			background-color: #3399cc;
+			height: 80px;
+			color: #fff;
+			font-size: 250%;
+			line-height: 80px;
+			text-indent: 30px;
+		}
+
+		#nav {
+			margin: 10px 0px 20px;
+		}
+
+		#nav ul li {
+			display: inline;
+			margin:0px 32px;
+		}
+
+		#nav ul li a {
+			color: gray;
+			font-size: 130%;
+		}
+
+		#nav ul li a:hover {
+			text-decoration: none;
+			border-bottom: 3px solid #cc0000;
+		}
+
+		#nav ul li a.navactive {
+			border-bottom: 3px solid #cc0000;
+			font-size: 140%;
+		}
+
+		#main {
+			width: 100%;
+			position: relative;
+		}
+
+		#sidebar {
+			width: 180px;
+		}
+
+		#sidebar dl {
+			margin-bottom: 8px;
+		}
+
+		#sidebar dl dt{
+			background-color: #3399cc;
+			color: #fff;
+			font-size: 14px;
+			padding: 6px 0px 7px 15px;
+			margin-bottom: 10px;
+		}
+
+		#sidebar dl dd a {
+			padding-left: 15px;
+			line-height: 20px;
+			font-size: 13px;
+		}
+
+		#sidebar dl dd a:link, #sidebar dl dd a:visited {
+			color: #000;
+		}
+
+		#sidebar dl dd a:hover {
+			color: #ff0000;
+		}
+
+		#sidebar dl dd a.sideactive {
+			color: #ff0000;
+		}
+
+		#content {
+			height: 700px;
+			position: absolute;
+			top: 0;
+			margin-left: 200px;
+		}
+
+		#content h1 {
+			font-weight: normal;
+		}
+
+		#content div.pageto {
+			border-top: 1px solid #aaa;
+			border-bottom: 3px solid #aaa;
+			padding: 10px 0px;
+			margin-top: 5px;
+		}
+
+		#content div.button {
+			display: inline-block;
+			margin: 0px 10px;
+			border: 1px solid #dfdfdf;
+			background-color: #f3f3f3;
+			padding: 5px 20px;
+		}
+
+		#content div.button a{
+			color: #555;
+		}
+
+		#content div.button a:hover{
+			color: #000;
+			text-decoration: none;
+		}
+
+		#content div.article {
+			line-height: 24px;
+			padding: 10px 0px;
+			border-bottom: 1px dashed #ccc;
+			text-align: justify;
+		}
+
+		#content div.article h3, #content div.article h4 {
+			font-size: 13px;
+		}
+
+		#content div.article a:link, #content div.article a:visited {
+			color: #900b09;
+			text-decoration: underline;
+		}
+
+		#content div.article a:hover {
+			text-decoration: none;
+		}
+
+		#content div#bottombutton {
+			margin-top: -1px;
+		}
+
+		#disclaimer {
+			color: #999;
+			margin-top: 20px;
+		}
+
+		#footer {
+			width: 100%;
+			text-align: center;
+			background-color: #ddd;
+			padding-top: 15px;
+			padding-bottom: 15px;
+			margin-top: 15px;
+			color: #999;
+		}

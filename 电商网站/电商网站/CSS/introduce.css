@@ -1,0 +1,825 @@
+
+  /*主体*/
+  #mainbody
+  {
+      margin-bottom: 0;
+      padding-bottom: 40px;
+
+      background-color: #f0f0f0;
+  }
+
+  /*用户位置栏*/
+  .userPositionBar
+  {
+      padding-top: 25px;
+      padding-bottom: 15px;
+  }
+
+  .userPositionBar a
+  {
+      color: #000;
+  }
+
+  .userPositionBar a:hover
+  {
+      text-decoration: underline;
+  }
+
+  /*商品信息栏*/
+  .shopInfoBar
+  {
+      color: #666;
+      border: 1px solid #ccc;
+      background-color: #fff;
+  }
+
+  /*商品信息栏左栏*/
+  .shopInfoBarLeft
+  {
+      width: 309px;
+      margin-top: 17px;
+
+      text-align: center;
+  }
+
+  .shopInfoBarLeft ul
+  {
+      width: 266px;
+      height: 53px;
+      margin: 23px auto 0;
+
+      border: 1px solid #ccc;
+  }
+
+  .shopInfoBarLeft li
+  {
+      float: left;
+
+      width: 52px;
+      height: 52px;
+      padding-top: 1px;
+
+      border-right: 1px solid #ccc;
+  }
+
+  .shopInfoBarLeft li.introduceSmallActive
+  {
+      position: relative;
+      top: -1px;
+      left: -1px;
+
+      border: 1px solid #317ee7;
+  }
+
+  .shopInfoBarLeft li.introduceSmallLast
+  {
+      border: none;
+  }
+
+  /*商品信息栏右栏*/
+  .shopInfoBarRight
+  {
+      margin-left: 309px;
+      padding-top: 27px;
+      padding-left: 25px;
+
+      border-left: 1px solid #ccc;
+  }
+
+  /*商品信息栏右栏标题*/
+  .shopInfoBarRight h1
+  {
+      font-size: 16px;
+      line-height: 22px;
+
+      color: #000;
+  }
+
+  /*商品信息栏右栏慕课价*/
+  .moocPrice
+  {
+      padding-top: 10px;
+  }
+
+  .moocPrice span
+  {
+      color: #d70000;
+  }
+
+  .moocPrice > span
+  {
+      padding-left: 20px;
+  }
+
+  span.moocPriceNum
+  {
+      font-size: 22px;
+  }
+
+  /*商品信息栏右栏优惠*/
+  .preferential a
+  {
+      line-height: 18px;
+
+      display: inline-block;
+
+      height: 18px;
+      margin-top: 13px;
+      margin-left: 37px;
+      padding-left: 59px;
+
+      background: url(../images/icon/preferential.jpg) left center no-repeat;
+  }
+
+  /*商品信息栏右栏商品版本*/
+  .shopVersion
+  {
+      position: relative;
+      top: 0;
+      right: 15px;
+
+      width: 650px;
+      margin-top: 15px;
+      padding-top: 20px;
+      padding-left: 15px;
+
+      background-color: #f0f0f0;
+  }
+
+  .arriveTo select
+  {
+      height: 22px;
+      margin-right: 10px;
+      margin-left: 37px;
+  }
+
+  .shopSelect
+  {
+      margin-top: 16px;
+  }
+
+  .shopSelect ul
+  {
+      display: inline-block;
+
+      margin-left: 10px;
+  }
+
+  .shopSelect li
+  {
+      line-height: 32px;
+
+      display: inline-block;
+
+      height: 32px;
+      margin: 0 3px 8px;
+      padding: 0 27px;
+
+      text-align: center;
+
+      color: #000;
+      border: 1px solid #ccc;
+      background-color: #fff;
+  }
+
+  .rom
+  {
+      margin-top: 8px;
+  }
+
+  .rom ul
+  {
+      vertical-align: middle;
+  }
+
+  .rom li
+  {
+      line-height: 24px;
+
+      height: 24px;
+      padding: 0 7px;
+  }
+
+  .shopSelect li.active
+  {
+      border: 1px solid #317ee7;
+  }
+
+  .shopNumberBox
+  {
+      line-height: 32px;
+
+      display: inline-block;
+
+      height: 32px;
+      margin: 8px 11px 20px 37px;
+
+      border: 1px solid #b2b2b2;
+      background-color: #fff;
+  }
+
+  .shopNumberBox input
+  {
+      line-height: 33px;
+
+      display: inline-block;
+
+      width: 50px;
+      height: 32px;
+
+      text-align: center;
+
+      border-right: 1px solid #b2b2b2;
+      border-left: 1px solid #b2b2b2;
+  }
+
+  .limited
+  {
+      color: #fc7700;
+  }
+
+  .shopNumberChange
+  {
+      line-height: 30px;
+
+      width: 13px;
+      height: 30px;
+
+      text-align: center;
+
+      border: 1px solid #fff;
+      background-color: #f3f3f3;
+  }
+
+  /*商品信息栏右栏已选择*/
+  .shopSelected
+  {
+      font-weight: bold;
+
+      margin-top: 23px;
+  }
+
+  .shopVersionSelected
+  {
+      color: #0479ca;
+  }
+
+  /*商品信息栏右栏购买*/
+  .shopBuy
+  {
+      margin: 15px 0 0 16px;
+  }
+
+  .shopCarWarp
+  {
+      display: inline-block;
+
+      padding: 20px 40px;
+
+      border-right: 1px solid #e5e5e5;
+  }
+
+  .shopCar
+  {
+      font-size: 20px;
+      line-height: 48px;
+
+      width: 140px;
+      height: 48px;
+      padding: 0 30px;
+
+      color: #fff;
+      background-color: #fe8900;
+  }
+
+  .shopCar img
+  {
+      padding-right: 15px;
+  }
+
+  .shopBuyLast
+  {
+      border: none;
+  }
+
+  /*商品信息栏右栏注意项*/
+  .attention
+  {
+      padding: 20px 0;
+  }
+
+  /*广告栏*/
+  .ad
+  {
+      width: 188px;
+      margin-top: 14px;
+
+      border: 1px solid #ccc;
+      border-top: none;
+      background-color: #fff;
+  }
+
+  .ad h3
+  {
+      font-size: 14px;
+      line-height: 34px;
+
+      text-indent: 15px;
+
+      border-top: 3px solid #1d86cf;
+      border-bottom: 1px solid #ccc;
+      background-color: #f0f0f0;
+  }
+
+  .ad ul
+  {
+      padding: 0 15px 15px;
+  }
+
+  .ad li
+  {
+      line-height: 18px;
+
+      width: 163px;
+      padding-top: 15px;
+  }
+
+  .ad li img
+  {
+      padding-left: 7px;
+  }
+
+  .ad li a
+  {
+      margin-bottom: 3px;
+  }
+
+  .ad div
+  {
+      font-weight: bold;
+
+      color: #de0000;
+  }
+
+  /*商品介绍页主体*/
+  .shopMain
+  {
+      width: 784px;
+      margin-top: 14px;
+      margin-left: 214px;
+
+      border: 1px solid #ccc;
+      background-color: #fff;
+  }
+
+  /*商品介绍页主体导航*/
+  .shopMainNavBox
+  {
+      font-size: 0;
+
+      border-bottom: 1px solid #ccc;
+      background-color: #f0f0f0;
+  }
+
+  .shopMainNavBox a
+  {
+      color: #656565;
+  }
+
+  .shopMainNav
+  {
+      font-size: 12px;
+      line-height: 40px;
+
+      display: inline-block;
+
+      width: 50%;
+      height: 40px;
+
+      text-align: center;
+  }
+
+  .shopMainNavIcon
+  {
+      padding-right: 11px;
+
+      vertical-align: middle;
+  }
+
+  .shopMainNavBox .active
+  {
+      color: #fff;
+      background-color: #0479ca;
+  }
+
+  /*商品介绍页主体横幅*/
+  .shopMainBanner
+  {
+      padding: 30px 102px 12px;
+  }
+
+  /*商品介绍页主体文章*/
+  .shopMainArticle
+  {
+      margin: 49px 0 35px 19px;
+  }
+
+  .shopMainArticleTit
+  {
+      line-height: 24px;
+
+      margin-bottom: 22px;
+
+      border-bottom: 2px solid #d7d7d7;
+  }
+
+  .shopMainArticleTit h3
+  {
+      font-size: 16px;
+      font-weight: normal;
+
+      display: inline-block;
+
+      margin: 0 4px -2px 0;
+      padding: 0 8px 6px 1px;
+
+      color: #2457a6;
+      border-bottom: 2px solid #2457a6;
+  }
+
+  .shopMainArticle p
+  {
+      font-size: 14px;
+      line-height: 22px;
+  }
+
+  .shopMainImg
+  {
+      margin-top: 52px;
+      margin-left: 13px;
+  }
+
+  /*商品评价栏*/
+  .shopCommentsBar
+  {
+      width: 784px;
+      margin-top: 14px;
+      margin-left: 214px;
+
+      border: 1px solid #ccc;
+      background-color: #fff;
+  }
+
+  .shopCommentsBar h3
+  {
+      font-size: 14px;
+      line-height: 34px;
+
+      text-indent: 10px;
+  }
+
+  /*商品评价栏分数栏*/
+  .bigNum
+  {
+      line-height: 25px;
+
+      margin-top: 8px;
+      margin-left: 8px;
+  }
+
+  .bigNum strong
+  {
+      font-size: 50px;
+      font-weight: normal;
+
+      color: #ff8f00;
+  }
+
+  .bigNum span
+  {
+      font-size: 18px;
+  }
+
+  .shopCommentsNum ul
+  {
+      font-size: 0;
+      line-height: 16px;
+
+      position: relative;
+
+      width: 450px;
+      height: 16px;
+      margin-top: 24px;
+      margin-left: 108px;
+
+      background-color: #bdbdbd;
+  }
+
+  .shopCommentsNum li
+  {
+      font-size: 12px;
+
+      display: inline-block;
+
+      width: 20%;
+
+      text-align: center;
+
+      color: #fff;
+  }
+
+  .shopCommentsNum li.floatNum
+  {
+      position: absolute;
+      top: -21px;
+      left: 91%;
+
+      width: 25px;
+      height: 18px;
+      padding: 0;
+
+      background: url(../images/icon/grade.png) center center no-repeat;
+  }
+
+  .shopCommentsNum p
+  {
+      margin-top: 10px;
+      margin-left: 108px;
+  }
+
+  /*商品评价栏具体内容*/
+
+  /*商品评价栏具体内容导航*/
+  .shopCommentsSpecific
+  {
+      margin-top: 60px;
+  }
+
+  .shopCommentsSpecificNav
+  {
+      font-size: 0;
+
+      position: relative;
+
+      background-color: #f2f2f2;
+  }
+
+  .shopCommentsSpecificNav li
+  {
+      font-size: 12px;
+
+      display: inline-block;
+
+      margin: 0 20px;
+      padding: 10px 6px 7px;
+
+      text-align: center;
+
+      color: #000;
+      border-bottom: 3px solid #f2f2f2;
+  }
+
+  .shopCommentsSpecificNav li.active
+  {
+      font-weight: bold;
+
+      color: #317ee7;
+      border-bottom: 3px solid #317ee7;
+  }
+
+  .shopCommentsSpecificNav li.sort
+  {
+      line-height: 25px;
+
+      margin: 5px 5px 0;
+      padding: 0 20px 0 6px;
+
+      vertical-align: middle;
+
+      border: 1px solid #ccc;
+      background: url(../images/icon/sort.png) 58px center no-repeat;
+  }
+
+  .shopCommentsSpecificNav img
+  {
+      position: absolute;
+      top: -7px;
+      right: 16px;
+  }
+
+  /*商品评价栏具体内容查看*/
+  .shopCommentsSpecificCheck li
+  {
+      padding: 18px 0 30px 40px;
+  }
+
+  .userInfo
+  {
+      line-height: 18px;
+
+      padding-right: 71px;
+
+      text-align: center;
+
+      color: #77778c;
+  }
+
+  .date
+  {
+      margin-top: 7px;
+      margin-right: 24px;
+
+      color: #ababab;
+  }
+
+  .stars
+  {
+      font-weight: bold;
+
+      margin-top: 7px;
+  }
+
+  .stars span
+  {
+      padding-left: 8px;
+  }
+
+  .comments
+  {
+      margin: 15px 0;
+
+      color: #777;
+  }
+
+  .upAndDown a
+  {
+      padding-right: 13px;
+
+      color: #085c9b;
+  }
+
+  .upAndDown a:hover
+  {
+      text-decoration: underline;
+  }
+
+  /*商品评价栏翻页按钮*/
+  .pageTo
+  {
+      height: 28px;
+      margin: 20px 0 20px 115px;
+  }
+
+  .pageTo li
+  {
+      line-height: 24px;
+
+      float: left;
+
+      height: 24px;
+      margin: 0 3px;
+      padding: 0 10px;
+
+      text-align: center;
+
+      border: 1px solid #ddd;
+  }
+
+  .pageTo li.pageToActive
+  {
+      color: #fff;
+      background-color: #26b;
+  }
+
+  .pageTo li.points
+  {
+      border: none;
+  }
+
+  .skip
+  {
+      line-height: 24px;
+
+      height: 24px;
+  }
+
+  .skip input
+  {
+      width: 30px;
+      height: 24px;
+      margin: 0 5px;
+
+      text-align: center;
+
+      border: 1px solid #ddd;
+  }
+
+  .skip input.skipBtn
+  {
+      width: 44px;
+      margin-right: 14px;
+      margin-left: 2px;
+
+      background-color: #e8e8e8;
+  }
+
+  /*商品咨询栏*/
+  .consultBar
+  {
+      margin: 15px 0 0 214px;
+      padding-bottom: 20px;
+
+      background-color: #fff;
+  }
+
+  .consultAllWarp
+  {
+      width: 100%;
+
+      border-bottom: 1px solid #0688ba;
+  }
+
+  .publish
+  {
+      padding-top: 13px;
+      padding-right: 26px;
+  }
+
+  .publish a
+  {
+      color: #085c9b;
+  }
+
+  .publish a:hover
+  {
+      text-decoration: underline;
+  }
+
+  .consultAll
+  {
+      font-size: 14px;
+
+      width: 130px;
+      margin-bottom: -1px;
+      padding-top: 13px;
+      padding-bottom: 6px;
+
+      text-align: center;
+
+      color: #076ebb;
+      border: 1px solid #0688ba;
+      border-bottom: 1px solid #fff;
+  }
+
+  .pointOut
+  {
+      line-height: 25px;
+
+      margin: 10px 21px 0;
+      padding: 10px 20px 5px;
+
+      background-color: #f3f3f3;
+  }
+
+  .consultCheck li
+  {
+      padding-top: 28px;
+      padding-left: 60px;
+  }
+
+
+  .userInfo
+  {
+      padding-right: 33px;
+  }
+
+  .shopConsultTit
+  {
+      font-weight: bold;
+
+      margin-top: 6px;
+      margin-left: 83px;
+  }
+
+  .shopConsult
+  {
+      margin: 16px 0 13px 87px;
+  }
+
+  .reply
+  {
+      line-height: 56px;
+
+      height: 56px;
+      margin-right: 32px;
+      margin-left: 81px;
+
+      text-indent: 29px;
+
+      background-color: #f1f1f1;
+  }
+
+  .reply span
+  {
+      color: #777;
+  }

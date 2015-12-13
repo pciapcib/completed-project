@@ -1,0 +1,119 @@
+    @font-face
+    {
+        font-family: 'Museo Sans X';
+
+        src: url(../fonts/MuseoSans_500.otf);
+    }
+
+    html,
+    body,
+    div,
+    span,
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6,
+    p,
+    blockquote,
+    pre,
+    a,
+    cite,
+    code,
+    em,
+    font,
+    img,
+    q,
+    strong,
+    i,
+    dl,
+    dt,
+    dd,
+    ol,
+    ul,
+    li,
+    input,
+    fieldset,
+    form,
+    label,
+    table,
+    caption,
+    tbody,
+    tfoot,
+    thead,
+    tr,
+    th,
+    td
+    video
+    {
+        font-size: 100%;
+
+        margin: 0;
+        padding: 0;
+
+        vertical-align: baseline;
+
+        border: 0;
+        outline: 0;
+        background: transparent;
+    }
+
+    body
+    {
+        font-family: 'Museo Sans X';
+        font-size: 12px;
+        line-height: 1;
+    }
+
+    a
+    {
+        text-decoration: none;
+    }
+
+    ol,
+    ul
+    {
+        list-style: none;
+    }
+
+    blockquote,
+    q
+    {
+        quotes: none;
+    }
+
+    blockquote:before,
+    blockquote:after,
+    q:before,
+    q:after
+    {
+        content: '';
+        content: none;
+    }
+
+    .center
+    {
+        width: 1070px;
+        margin: 0 auto;
+    }
+
+    .clearfix:after
+    {
+        display: block;
+        clear: both;
+
+        height: 0;
+
+        content: '\200B';
+    }
+
+    .clearfix
+    {
+        *zoom: 1;
+    }
+
+    .none
+    {
+        display: none;
+    }

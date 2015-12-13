@@ -1,0 +1,83 @@
+
+	/*产品分类展示*/
+	.productsShow
+	{
+	    clear: right;
+
+	    width: 804px;
+	    padding-top: 7px;
+	    padding-left: 196px;
+	}
+
+	/*产品分类展示标题*/
+	.productsShowTit
+	{
+	    line-height: 34px;
+
+	    height: 34px;
+
+	    text-indent: 9px;
+
+	    border-bottom: 2px solid #ccc;
+	}
+
+	.productsShowTit h3
+	{
+	    font-size: 16px;
+
+	    width: 180px;
+
+	    border-bottom: 2px solid #096dba;
+	}
+
+	/*产品分类展示内容*/
+	.productsShowSection
+	{
+	    width: 804px;
+	    height: 550px;
+	}
+
+	.productsShowSection ul
+	{
+	    width: 900px;
+	}
+
+	.productsShowSection li
+	{
+	    line-height: 18px;
+
+	    float: left;
+
+	    width: 160px;
+	    height: 250px;
+	    margin: 14px 19px 14px 16px;
+	}
+
+	.productsShowSection li a
+	{
+	    color: #000;
+	}
+
+	.productsShowSection li a:hover
+	{
+	    color: #f00;
+	}
+
+	.price
+	{
+	    font-weight: bold;
+
+	    margin-top: 15px;
+
+	    color: #d4105a;
+	}
+
+	.comment img
+	{
+	    margin: 0 -1px -1px;
+	}
+
+	.comment a.commentNum
+	{
+	    color: #085c9b;
+	}

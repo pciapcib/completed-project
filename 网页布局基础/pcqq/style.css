@@ -1,0 +1,237 @@
+		* {
+			margin: 0;
+			padding: 0;
+			font-family: Verdana, Geneva, sans-serif,"宋体";
+			font-size: 14px;
+		}
+
+		a {
+			color: #266392;
+		}
+
+		a.none:link, a.none:visited {
+			text-decoration: none;
+		}
+
+		a.none:hover {
+			text-decoration: underline;
+		}
+
+		a.underline:link, a.underline:visited {
+			text-decoration: underline;
+		}
+
+		a.underline:hover {
+			text-decoration: none;
+		}
+
+		#allcontent {
+			margin: 0 auto;
+			width: 910px;
+		}
+
+		#logo {
+			height: 63px;
+			margin-top: 5px;
+		}
+
+		#slogan {
+			float: right;
+			margin: 12px 0px 15px;
+		}
+
+		#slogan h3 {
+			line-height: 26px;
+		}
+
+		#slogan p {
+			font-size: 80%;
+			line-height: 24px;
+			color: gray;
+		}
+
+		#nav {
+			background: url(images/navbg.gif) no-repeat;
+			height: 36px;
+			margin-top: 8px;
+		}
+
+		#nav ul {
+			width: 94%;
+    		margin: 0 auto;
+    		overflow: hidden;
+			padding-top: 3px;
+		}
+
+		#nav ul li {
+			display: inline;
+			margin: 0px 18px;
+			font-weight: bold;
+		}
+
+
+		#nav ul li a:link, #nav ul li a:visited {
+			color: #fff;
+		}
+
+		#nav ul li a:hover {
+			text-decoration: none;
+		}
+
+		#nav li.active {
+			background:url(images/home.gif) no-repeat;
+			float: left;
+			width: 88px;
+			height: 26px;
+			text-align: center;
+			padding-top: 4px;
+			margin-top: -5px;
+		}
+
+		#nav ul li.active a:link, #nav ul li.active a:visited {
+			color: #000;
+		}
+
+		#nav ul li.lab {
+			background:url(images/arrow_r.gif) no-repeat;
+			margin: 0px;
+			padding: 0 24px;
+			float: right;
+		}
+
+		#main {
+			width: 100%;
+			overflow: hidden;
+			margin-top: 10px;
+		}
+
+		.box {
+			width: 100%;
+			overflow: hidden;
+			margin-bottom: 15px;
+		}
+
+		.left {
+			width: 600px;
+			float : left;
+		}
+
+		.box h2 {
+			margin-bottom: 10px;
+			line-height: 28px;
+			border-bottom: 1px solid #cce6f5;
+		}
+
+		.box span.down {
+			float: right;
+		}
+
+		.box h2 span a {
+			font-weight: normal;
+			font-size: 90%;
+		}
+
+		.software_img {
+			float: left;
+			margin-top: 4px;
+		}
+
+		ul {
+			list-style-type: none;
+		}
+
+		.left ul li {
+			margin-bottom: 15px;
+			width: 100%;
+    		overflow: hidden;
+		}
+
+		.left ul li dl {
+			padding-left: 15px;
+			float: left;
+		}
+
+		.left ul li dl dt {
+			display: inline;
+			line-height: 26px;
+			font-size: 80%;
+			color: gray;
+		}
+
+		.left ul li dl dt a {
+			margin-right: 10px;
+			font-weight: bold;
+		}
+
+		.left ul li dl dt img {
+			margin-left: 5px;
+		}
+
+		.left ul li dl dd.introduce {
+			line-height: 24px;
+		}
+
+		.left ul li span.down {
+			margin-top: 4px;
+		}
+
+		.left ul li span.down a, .right a {
+			font-size: 80%;
+			line-height: 22px;
+		}
+
+		#more h2 a{
+			font-size: 14px;
+		}
+
+		.new {
+			line-height: 22px;
+		}
+
+		.right {
+			width: 280px;
+			float: right;
+		}
+
+		#more img {
+			vertical-align: middle;
+		}
+
+		#more ul li{
+			line-height: 27px;
+			margin-bottom: 5px;
+		}
+
+		#more ul li a.none {
+			padding-left: 6px;
+		}
+		
+		#more .down .none {
+			font-size: 80%;
+		}
+
+		table {
+			width: 100%;
+		}
+
+		.right table a {
+			font-size: 13px;
+		}
+
+		#footer {
+			margin-top: 10px;
+			padding: 15px 0px;
+			border-top: 1px solid #e6e6e6;
+			background-color: #f8f8f8;
+			width: 100%;
+			
+		}
+
+		#footer p {
+			text-align: center;
+			font-size: 10px;
+			color: gray;
+			line-height: 24px;
+		}
+
+		

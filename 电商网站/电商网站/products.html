@@ -1,0 +1,615 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>慕课网 - 产品分类</title>
+  <link rel="stylesheet" type="text/css" href="CSS/mooc.css">
+  <link rel="stylesheet" type="text/css" href="CSS/products.css">
+</head>
+<body>
+  <!-- 头部 -->
+  <div id="header">
+    <!-- 顶部栏 -->
+    <div id="topBar">
+      <div class="center">
+        <!-- 收藏 -->
+        <div id="collection" class="fl">
+          <a href="#">收藏慕课</a>
+        </div>
+        <!-- 登录 -->
+        <div id="login" class="fr">
+          欢迎来到慕课网！
+          <a href="#">[登录]</a>
+          <a href="#">[免费注册]</a>
+        </div>
+      </div>
+    </div>
+    <!-- logo栏 -->
+    <div id="logoBar">
+      <div class="center">
+        <!-- logo -->
+        <div id="logo" class="fl">
+          <a href="index.html"><img src="images/logo.jpg" alt="慕课网"></a>
+        </div>
+        <!-- 搜索框 -->
+        <div id="searchBox" class="fl">
+          <input type="text" id="searchText" class="fl">
+          <input type="button" value="搜 索" id="searchBtn" class="fr">
+        </div>
+        <!-- 购物车 -->
+        <div id="shopCar" class="fr">
+          <span id="shopText" class="fl"><a href="#">购物车</a></span>
+          <span id="shopNum" class="fl">0</span>
+        </div>
+      </div>
+    </div>
+    <!-- 导航栏 -->
+    <div id="navBar">
+      <div class="center">
+        <!-- 商品弹出列表左侧 -->
+        <div id="shopClass" class="fl hidden">
+          <h3>全部商品分类</h3>
+
+          <div id="shopClassShow">
+            <dl class="shopClassItem">
+              <dt>
+                <a href="#">手机</a>
+                <a href="#">数码</a>
+                <a href="#" class="shopClassItemS">合约机</a>
+              </dt>
+
+              <dd>
+                <a href="#">荣耀3X</a>
+                <a href="#">单反</a>
+                <a href="#">智能设备</a>
+              </dd>
+            </dl>
+
+            <dl class="shopClassItem">
+              <dt>
+                <a href="#">电脑</a>
+                <a href="#">硬件外设</a>
+                <a href="#" class="shopClassItemS">装机宝</a>
+              </dt>
+
+              <dd>
+                <a href="#">笔记本</a>
+                <a href="#">台式机</a>
+                <a href="#">超级本</a>
+                <a href="#">平板</a>
+              </dd>
+            </dl>
+
+            <dl class="shopClassItem">
+              <dt>
+                <a href="#">大家电</a>
+              </dt>
+
+              <dd>
+                <a href="#">电视</a>
+                <a href="#">空调</a>
+                <a href="#">冰箱</a>
+                <a href="#">洗衣机</a>
+              </dd>
+            </dl>
+
+            <dl class="shopClassItem">
+              <dt>
+                <a href="#">厨房电器</a>
+                <a href="#">生活电器</a>
+              </dt>
+
+              <dd>
+                <a href="#">空气净化器</a>
+                <a href="#">微波炉</a>
+                <a href="#">取暖设备</a>
+              </dd>
+            </dl>
+
+            <dl class="shopClassItem shopLastItem">
+              <dt>
+                <a href="#">食品/饮料/生鲜</a>
+                <a href="#" class="shopClassItemS">粮油</a>
+              </dt>
+
+              <dd>
+                <a href="#">进口</a>
+                <a href="#">方便面</a>
+                <a href="#">零食</a>
+                <a href="#">保健</a>
+              </dd>
+            </dl>
+          </div>
+          <!-- 商品弹出列表右侧 -->
+          <div class="itemRight" style="display:none;">
+            <dl>
+              <dt>
+                <a href="#">电脑整机</a>
+              </dt>
+
+              <dd>
+                <a href="#">笔记本</a>
+                <a href="#" class="itemRightaLink">超级本</a>
+                <a href="#">上网本</a>
+                <a href="#">平板电脑</a>
+                <a href="#">台式机</a>
+              </dd>
+            </dl>
+
+            <dl>
+              <dt>
+                <a href="#">装机配件</a>
+              </dt>
+
+              <dd>
+                <a href="#">CPU</a>
+                <a href="#">硬盘</a>
+                <a href="#">SSD固态硬盘</a>
+                <a href="#">内存</a>
+                <a href="#">显示器</a>
+                <a href="#">智能显示器</a>
+                <a href="#">主板</a>
+                <a href="#">显卡</a>
+                <a href="#">机箱</a>
+                <a href="#">电源</a>
+              </dd>
+
+              <dd class="itemRighth2">
+                <a href="#">散热器</a>
+                <a href="#">刻录机/光驱</a>
+                <a href="#">声卡</a>
+                <a href="#">拓展卡</a>
+                <a href="#">服务器配件</a>
+                <a href="#">DIY小附件</a>
+                <a href="#">装机/配件安装</a>
+              </dd>
+            </dl>
+
+            <dl>
+              <dt>
+                <a href="#">整机附件</a>
+              </dt>
+
+              <dd>
+                <a href="#">电脑包</a>
+                <a href="#">电脑桌</a>
+                <a href="#">电池</a>
+                <a href="#">电源适配器</a>
+                <a href="#">贴膜</a>
+                <a href="#">清洁用品</a>
+                <a href="#">笔记本散热器</a>
+                <a href="#">USB拓展</a>
+              </dd>
+
+              <dd class="itemRighth2">
+                <a href="#">平板配件</a>
+                <a href="#">特色附件</a>
+                <a href="#">插座网线/电话线</a>
+                <a href="#">影音线材</a>
+                <a href="#">电脑线材</a>
+              </dd>
+            </dl>
+
+            <dl>
+              <dt>
+                <a href="#">电脑外设</a>
+              </dt>
+
+              <dd>
+                <a href="#">鼠标</a>
+                <a href="#">键盘</a>
+                <a href="#">游戏外设</a>
+                <a href="#">移动硬盘</a>
+                <a href="#">摄像头</a>
+                <a href="#">高清播放器</a>
+                <a href="#">外置盒</a>
+                <a href="#">移动硬盘包</a>
+              </dd>
+
+              <dd class="itemRighth2">
+                <a href="#">手写板/绘图板</a>
+              </dd>
+            </dl>
+
+            <dl>
+              <dt>
+                <a href="#">网络设备</a>
+              </dt>
+
+              <dd>
+                <a href="#">路由器</a>
+                <a href="#">网卡</a>
+                <a href="#">3G无线上网</a>
+                <a href="#">交换机</a>
+                <a href="#">网络存储</a>
+                <a href="#">布线工具</a>
+                <a href="#">网络配件</a>
+                <a href="#">正版软件</a>
+              </dd>
+            </dl>
+
+            <dl>
+              <dt>
+                <a href="#">音频设备</a>
+              </dt>
+
+              <dd>
+                <a href="#">音箱</a>
+                <a href="#">耳机/耳麦</a>
+                <a href="#">麦克风</a>
+                <a href="#">声卡</a>
+                <a href="#">音频附件</a>
+                <a href="#">录音笔</a>
+              </dd>
+            </dl>
+            <!-- 频道栏 -->
+            <div id="channel">
+              <div class="channel">
+                <a href="#">电脑整机频道<img src="images/icon/shopitemsj.png"></a>
+              </div>
+              <div class="channel">
+                <a href="#">硬件/外设频道<img src="images/icon/shopitemsj.png"></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- 导航列表栏 -->
+        <ul class="nav">
+          <li class="navActive"><a href="#">数码城</a></li>
+          <li><a href="#">天黑黑</a></li>
+          <li><a href="#">团购</a></li>
+          <li><a href="#">发现</a></li>
+          <li><a href="#">二手特卖</a></li>
+          <li><a href="#">名品会</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <!-- 主体 -->
+  <div id="mainbody" class="center">
+    <!-- 横幅栏 -->
+    <div class="banner fr">
+      <!-- 滚动图片 -->
+      <ul class="bannerBox">
+        <li><a href="#"><img src="images/banner/newad.jpg" alt="SONY SW2"></a></li>
+        <li><a href="#"><img src="images/banner/new.jpg" alt="banner"></a></li>
+      </ul>
+      <!-- 滚动条 -->
+      <ul class="scrollBar">
+        <li class="scroll scrollActive"></li>
+        <li class="scroll"></li>
+        <li class="scroll"></li>
+        <li class="scroll"></li>
+      </ul>
+    </div>
+    <!-- 产品分类导航 -->
+    <div id="productsNav" class="fl">
+      <h3>
+        <a href="#">手机、相机、数码</a>
+      </h3>
+      <dl>
+        <dt><a href="#">手机通讯</a></dt>
+        <dd><a href="#">全部手机</a></dd>
+        <dd><a href="#">1080P高清</a></dd>
+        <dd><a href="#">双卡手机</a></dd>
+        <dd><a href="#">拍照神器</a></dd>
+        <dd><a href="#">老年手机</a></dd>
+        <dd><a href="#">对讲机</a></dd>
+        <dd><a href="#">联通专区</a></dd>
+      </dl>
+
+      <dl>
+        <dt><a href="#">数码相机</a></dt>
+        <dd><a href="#">卡片机</a></dd>
+        <dd><a href="#">中长焦</a></dd>
+        <dd><a href="#">专业版</a></dd>
+        <dd><a href="#">自拍利器</a></dd>
+        <dd><a href="#">防水防摔</a></dd>
+        <dd><a href="#">一次成像</a></dd>
+      </dl>
+
+      <dl>
+        <dt><a href="#">单反</a></dt>
+        <dd><a href="#">全部</a></dd>
+        <dd><a href="#">佳能</a></dd>
+        <dd><a href="#">尼康</a></dd>
+        <dd><a href="#">宾得</a></dd>
+        <dd><a href="#">哈苏</a></dd>
+      </dl>
+
+      <dl>
+        <dt><a href="#">镜头</a></dt>
+        <dd><a href="#">单反镜头</a></dd>
+        <dd><a href="#">微单镜头</a></dd>
+      </dl>
+
+      <dl>
+        <dt><a href="#">摄像机</a></dt>
+        <dd><a href="#">全部</a></dd>
+        <dd><a href="#">索尼</a></dd>
+        <dd><a href="#">松下</a></dd>
+        <dd><a href="#">佳能</a></dd>
+        <dd><a href="#">三星</a></dd>
+      </dl>
+
+      <dl>
+        <dt><a href="#">摄像配件</a></dt>
+        <dd><a href="#">相机包</a></dd>
+        <dd><a href="#">相机电池</a></dd>
+        <dd><a href="#">贴膜</a></dd>
+        <dd><a href="#">滤镜</a></dd>
+        <dd><a href="#">三脚架</a></dd>
+        <dd><a href="#">闪光灯</a></dd>
+        <dd><a href="#">遮光罩</a></dd>
+        <dd><a href="#">遥控器</a></dd>
+        <dd><a href="#">专业配件</a></dd>
+        <dd><a href="#">清洁用品</a></dd>
+        <dd><a href="#">望远镜</a></dd>
+      </dl>
+
+      <dl>
+        <dt><a href="#">数码储存</a></dt>
+        <dd><a href="#">刻录盘片</a></dd>
+        <dd><a href="#">盘片附件</a></dd>
+      </dl>
+
+      <dl class="productsNavLast">
+        <dt><a href="#">电子教育</a></dt>
+        <dd><a href="#">电子书</a></dd>
+        <dd><a href="#">电子词典</a></dd>
+        <dd><a href="#">幼儿教育</a></dd>
+        <dd><a href="#">智能学习</a></dd>
+        <dd><a href="#">录音笔</a></dd>
+      </dl>
+    </div>
+    <!-- 产品分类展示 -->
+    <div class="productsShow">
+      <!-- 产品分类展示标题 -->
+      <div class="productsShowTit">
+        <h3>数码影像</h3>
+      </div>
+      <!-- 产品分类展示内容 -->
+      <div class="productsShowSection">
+        <ul>
+          <li>
+            <a href="#"><img src="images/shop/camera01.jpg" alt="camera01"></a>
+            <a href="#">Canon 佳能IXUS 132 数码相机 粉色 (1600像素 2.7”LCD</a>
+            <div class="price">&yen;699.00</div>
+            <div class="comment">评论:
+              <img src="images/icon/star.jpg">
+              <img src="images/icon/star.jpg">
+              <img src="images/icon/star.jpg">
+              <img src="images/icon/star.jpg">
+              <img src="images/icon/star.jpg">
+              <a href="#" class="commentNum">(79条)</a>
+            </div>
+          </li>
+          <li>
+            <a href="#"><img src="images/shop/camera02.jpg" alt="camera02"></a>
+            <a href="#">Canon 佳能 PowerShot N 数码相机 白色 礼盒装</a>
+            <div class="price">&yen;2199.00</div>
+            <div class="comment">评论:
+              <img src="images/icon/star.jpg">
+              <img src="images/icon/star.jpg">
+              <img src="images/icon/star.jpg">
+              <img src="images/icon/star.jpg">
+              <img src="images/icon/star.jpg">
+              <a href="#" class="commentNum">(0条)</a>
+            </div>
+          </li>
+          <li>
+            <a href="#"><img src="images/shop/camera03.jpg" alt="camera03"></a>
+            <a href="#">全网底价 Fujifilm富士 FinePix JX710 数码相机 粉色</a>
+            <div class="price">&yen;349.00</div>
+            <div class="comment">评论:
+              <img src="images/icon/star.jpg">
+              <img src="images/icon/star.jpg">
+              <img src="images/icon/star.jpg">
+              <img src="images/icon/star.jpg">
+              <img src="images/icon/star.jpg">
+              <a href="#" class="commentNum">(157条)</a>
+            </div>
+          </li>
+          <li>
+            <a href="#"><img src="images/shop/camera04.jpg" alt="camera04"></a>
+            <a href="#">Canon 佳能 EOS 60D 单反套机 (EF-S 18-135IS)</a>
+            <div class="price">&yen;6099.00</div>
+            <div class="comment">评论:
+              <img src="images/icon/star.jpg">
+              <img src="images/icon/star.jpg">
+              <img src="images/icon/star.jpg">
+              <img src="images/icon/star.jpg">
+              <img src="images/icon/star.jpg">
+              <a href="#" class="commentNum">(1322条)</a>
+            </div>
+          </li>
+          <li>
+            <a href="#"><img src="images/shop/camera05.jpg" alt="camera05"></a>
+            <a href="#">SONY索尼 DSC-TX66 数码相机 粉色 1820万像素/3.3英寸</a>
+            <div class="price">&yen;969.00</div>
+            <div class="comment">评论:
+              <img src="images/icon/star.jpg">
+              <img src="images/icon/star.jpg">
+              <img src="images/icon/star.jpg">
+              <img src="images/icon/star.jpg">
+              <img src="images/icon/star.jpg">
+              <a href="#" class="commentNum">(190条)</a>
+            </div>
+          </li>
+          <li>
+            <a href="#"><img src="images/shop/camera06.jpg" alt="camera06"></a>
+            <a href="#">Canon 佳能 LEGRIA HF R506 摄像机 白色</a>
+            <div class="price">&yen;2799.00</div>
+            <div class="comment">评论:
+              <img src="images/icon/star.jpg">
+              <img src="images/icon/star.jpg">
+              <img src="images/icon/star.jpg">
+              <img src="images/icon/star.jpg">
+              <img src="images/icon/star.jpg">
+              <a href="#" class="commentNum">(0条)</a>
+            </div>
+          </li>
+          <li>
+            <a href="#"><img src="images/shop/camera07.jpg" alt="camera07"></a>
+            <a href="#">Samsung 三星 GALAXY Tab 3 3G版 T111 7英寸平板电脑</a>
+            <div class="price">&yen;1698.00</div>
+            <div class="comment">评论:
+              <img src="images/icon/star.jpg">
+              <img src="images/icon/star.jpg">
+              <img src="images/icon/star.jpg">
+              <img src="images/icon/star.jpg">
+              <img src="images/icon/star.jpg">
+              <a href="#" class="commentNum">(0条)</a>
+            </div>
+          </li>
+          <li>
+            <a href="#"><img src="images/shop/camera08.jpg" alt="camera08"></a>
+            <a href="#">全网底价 Sony索尼 NEX-3NL 16-50mm 单变焦镜头套装 粉</a>
+            <div class="price">&yen;2430.00</div>
+            <div class="comment">评论:
+              <img src="images/icon/star.jpg">
+              <img src="images/icon/star.jpg">
+              <img src="images/icon/star.jpg">
+              <img src="images/icon/star.jpg">
+              <img src="images/icon/star.jpg">
+              <a href="#" class="commentNum">(203条)</a>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <!-- 产品分类展示第二栏 -->
+    <div class="productsShow">
+      <!-- 产品分类展示标题 -->
+      <div class="productsShowTit">
+        <h3>娱乐影音</h3>
+      </div>
+      <!-- 产品分类展示内容 -->
+      <div class="productsShowSection">
+        <ul>
+          <li>
+            <a href="#"><img src="images/shop/fun01.jpg" alt="fun01"></a>
+            <a href="#">KSD凯仕达 USB电脑跳舞毯(即接即用,性价比强,纯中文)</a>
+            <div class="price">&yen;39.90</div>
+            <div class="comment">评论:
+              <img src="images/icon/star.jpg">
+              <img src="images/icon/star.jpg">
+              <img src="images/icon/star.jpg">
+              <img src="images/icon/star.jpg">
+              <img src="images/icon/star.jpg">
+              <a href="#" class="commentNum">(7865条)</a>
+            </div>
+          </li>
+          <li>
+            <a href="#"><img src="images/shop/fun02.jpg" alt="fun02"></a>
+            <a href="#">Apple苹果 iPodtouch4 32G MD058CH/A白色多媒体播放</a>
+            <div class="price">&yen;1359.00</div>
+            <div class="comment">评论:
+              <img src="images/icon/star.jpg">
+              <img src="images/icon/star.jpg">
+              <img src="images/icon/star.jpg">
+              <img src="images/icon/star.jpg">
+              <img src="images/icon/star.jpg">
+              <a href="#" class="commentNum">(16条)</a>
+            </div>
+          </li>
+          <li>
+            <a href="#"><img src="images/shop/fun03.jpg" alt="fun03"></a>
+            <a href="#">lepow乐泡 磐石6000 通用型移动电源 大黄鸭定制版本</a>
+            <div class="price">&yen;139.00</div>
+            <div class="comment">评论:
+              <img src="images/icon/star.jpg">
+              <img src="images/icon/star.jpg">
+              <img src="images/icon/star.jpg">
+              <img src="images/icon/star.jpg">
+              <img src="images/icon/star.jpg">
+              <a href="#" class="commentNum">(87条)</a>
+            </div>
+          </li>
+          <li>
+            <a href="#"><img src="images/shop/fun04.jpg" alt="fun04"></a>
+            <a href="#">Youwin友多闻 UDN708 天乙 四核手机平板 7英寸 IPS全贴</a>
+            <div class="price">&yen;799.00</div>
+            <div class="comment">评论:
+              <img src="images/icon/star.jpg">
+              <img src="images/icon/star.jpg">
+              <img src="images/icon/star.jpg">
+              <img src="images/icon/star.jpg">
+              <img src="images/icon/star.jpg">
+              <a href="#" class="commentNum">(87条)</a>
+            </div>
+          </li>
+          <li>
+            <a href="#"><img src="images/shop/fun05.jpg" alt="fun05"></a>
+            <a href="#">天韵 2CJTBD 2寸吉它背带（黑色 花色）</a>
+            <div class="price">&yen;3.00</div>
+            <div class="comment">评论:
+              <img src="images/icon/star.jpg">
+              <img src="images/icon/star.jpg">
+              <img src="images/icon/star.jpg">
+              <img src="images/icon/star.jpg">
+              <img src="images/icon/star.jpg">
+              <a href="#" class="commentNum">(19条)</a>
+            </div>
+          </li>
+          <li>
+            <a href="#"><img src="images/shop/fun06.jpg" alt="fun06"></a>
+            <a href="#">Philips 飞利浦 SPF1127/93 7英寸 数码相框 白色</a>
+            <div class="price">&yen;259.00</div>
+            <div class="comment">评论:
+              <img src="images/icon/star.jpg">
+              <img src="images/icon/star.jpg">
+              <img src="images/icon/star.jpg">
+              <img src="images/icon/star.jpg">
+              <img src="images/icon/star.jpg">
+              <a href="#" class="commentNum">(255条)</a>
+            </div>
+          </li>
+          <li>
+            <a href="#"><img src="images/shop/fun07.jpg" alt="fun07"></a>
+            <a href="#">ibody Rainbow 蓝牙健康追踪器 蓝色</a>
+            <div class="price">&yen;239.00</div>
+            <div class="comment">评论:
+              <img src="images/icon/star.jpg">
+              <img src="images/icon/star.jpg">
+              <img src="images/icon/star.jpg">
+              <img src="images/icon/star.jpg">
+              <img src="images/icon/star.jpg">
+              <a href="#" class="commentNum">(19条)</a>
+            </div>
+          </li>
+          <li>
+            <a href="#"><img src="images/shop/fun08.jpg" alt="fun08"></a>
+            <a href="#">SmartQ智器 Z Watch 智能手表 开启可穿戴式达人酷毙生活</a>
+            <div class="price">&yen;699.00</div>
+            <div class="comment">评论:
+              <img src="images/icon/star.jpg">
+              <img src="images/icon/star.jpg">
+              <img src="images/icon/star.jpg">
+              <img src="images/icon/star.jpg">
+              <img src="images/icon/star.jpg">
+              <a href="#" class="commentNum">(16条)</a>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <!-- 尾部 -->
+  <div id="footer">
+    <!-- 布告栏 -->
+    <div class="notice">
+      <a href="#">慕课简介</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="#">慕课公告</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="#">招纳贤士</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="#">联系我们</a>&nbsp;&nbsp;|&nbsp;&nbsp;客服热线：400-675-1234
+    </div>
+    <!-- 版权信息栏 -->
+    <div class="copyright">
+      Copyright&nbsp;&copy;&nbsp;2006&nbsp;-&nbsp;2014&nbsp;慕课版权所有&nbsp;&nbsp;&nbsp;京ICP备09037834号&nbsp;&nbsp;&nbsp;京ICP证B1034-8373号&nbsp;&nbsp;&nbsp;某市公安局XX分局备案编号：123456789123
+    </div>
+    <!-- 信用网站栏 -->
+      <a href="#"><img src="images/icon/credit.png" alt="creditweb"></a>
+      <a href="#"><img src="images/icon/credit.png" alt="creditweb"></a>
+      <a href="#"><img src="images/icon/credit.png" alt="creditweb"></a>
+      <a href="#"><img src="images/icon/credit.png" alt="creditweb"></a>
+  </div>
+</body>
+</html>

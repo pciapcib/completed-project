@@ -1,0 +1,167 @@
+
+	/*商品栏*/
+	.shopBar
+	{
+	    clear: both;
+	}
+
+	/*商品标题*/
+	.shopTit
+	{
+	    padding: 15px 0;
+
+	    background: url(../images/icon/mainshop.jpg) left center no-repeat;
+	}
+
+	.shopTit h3
+	{
+	    font-size: 24px;
+	    font-weight: normal;
+	    line-height: 46px;
+
+	    display: inline-block;
+
+	    text-indent: 58px;
+	}
+
+	.shopTit a
+	{
+	    margin-top: 30px;
+
+	    color: #000;
+	}
+
+	.shopTit a:hover
+	{
+	    text-decoration: underline;
+	}
+
+	/*商品展示*/
+
+	/*商品展示左侧*/
+	.leftArea
+	{
+	    position: relative;
+
+	    height: 400px;
+	}
+
+	/*滚动图片*/
+	.leftArea img
+	{
+	    position: absolute;
+	    top: 0;
+	    left: 0;
+	}
+
+
+	/*滚动条*/
+	.leftArea .scrollBar
+	{
+	    top: 380px;
+	    left: 50px;
+	}
+
+	.leftArea .scroll
+	{
+	    width: 20px;
+	}
+
+	/*商品展示右侧*/
+	.rightArea
+	{
+	    width: 809px;
+	    height: 396px;
+	    margin-left: 190px;
+
+	    border-top: 1px solid #ccc;
+	    border-right: 1px solid #ccc;
+	    border-bottom: 3px solid #ff7201;
+	}
+
+	.rightArea ul
+	{
+	    width: 900px;
+	}
+
+	.rightArea li
+	{
+	    float: left;
+
+	    border-right: 1px solid #ccc;
+	}
+
+	.shopLastLi
+	{
+	    padding-right: 2px;
+	}
+
+	/*商品展示右侧上侧*/
+	.topShop li
+	{
+	    width: 201px;
+	    height: 284px;
+
+	    text-align: center;
+
+	    border-bottom: 1px solid #ccc;
+	}
+
+	.topShop li a img
+	{
+	    margin-top: 45px;
+	}
+
+	.topShopName
+	{
+	    font-size: 16px;
+	    font-weight: bold;
+
+	    display: block;
+
+	    padding-top: 24px;
+
+	    color: #000;
+	}
+
+	.topPrice
+	{
+	    font-size: 14px;
+
+	    color: #ff7300;
+	}
+
+	/*商品展示右侧下侧*/
+	.bottomShop li
+	{
+	    width: 201px;
+	    height: 111px;
+	}
+
+	.bottomShopImg
+	{
+	    margin: 15px 10px;
+	}
+
+	.shopBar2 .bottomShopImg
+	{
+	    margin: 15px 3px 15px 10px;
+	}
+
+	.bottomShopDiv
+	{
+	    width: 97px;
+	    margin: 29px 0;
+	}
+
+	.bottomShopName
+	{
+	    color: #000;
+	}
+
+	.bottomPrice
+	{
+	    font-size: 16px;
+
+	    color: #000;
+	}

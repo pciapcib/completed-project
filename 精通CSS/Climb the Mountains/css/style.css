@@ -1,0 +1,532 @@
+
+/*
+
+    Climb the Mountains by Kamisama
+
+    Ver 1.0
+
+    Contents ----------
+
+        0.通用
+            0.1 body
+            0.2 标题
+            0.3 超链接
+            0.4 图片
+            0.5 布局
+            0.6 其它
+        1.页眉部分
+            1.1 logo部分
+                1.1.1 品牌
+                1.1.2 寻找
+            1.2 导航部分
+                1.2.1 导航
+                1.2.2 用户
+                1.2.3 格言
+        2.主体部分
+            2.1 海拔图
+                2.1.1 标题
+                2.1.2 海拔图部分
+                    2.1.2.1 导航
+                    2.1.2.2 工具
+                    2.1.2.3 趋势图
+                2.1.3 照片
+            2.2 信息
+                2.2.1 其它路线
+                2.2.2 建议
+                2.2.3 成员
+            2.3 其它信息
+                2.3.1 论坛
+                2.3.2 Flickr
+        3.页脚部分
+            3.1 导航版权
+                3.1.1 导航
+                3.1.2 版权
+            3.2 简介
+
+    -------------------
+
+    Colors ------------
+
+        blue #278dab
+        green #339900
+
+    -------------------
+
+*/
+
+/*  0.通用
+----------------------------------------------*/
+
+/*  0.1 body ------------*/
+
+body
+{ font-family: Georgia, serif; font-size: 14px; line-height: 18px; }
+
+/*  0.2 标题 ------------*/
+
+h1,
+h2,
+h4,
+h5
+{ font-family: Helvetica, Arial, sans-serif; font-weight: bold; }
+
+h1
+{ font-size: 36px; }
+
+h2
+{ font-size: 22px; line-height: 22px; margin-bottom: 20px; color: #000; }
+
+h5
+{ font-size: 10px; letter-spacing: 1px; }
+
+/*  0.3 超链接 ------------*/
+
+a
+{ text-decoration: none; color: #000; }
+
+a:hover,
+a:focus
+{ text-decoration: underline; }
+
+
+/*  0.4 图片 ------------*/
+
+/*  0.5 布局 ------------*/
+
+#wrapper
+{ width: 1000px; margin: 0 auto; }
+
+/*  0.5 其它 ------------*/
+
+.clearfix:after
+{ display: block; clear: both; height: 0; content: '\200B'; }
+
+.clearfix
+{ *zoom: 1; }
+
+.nav
+{ font-size: 0; }
+
+.nav li
+{ font-size: 12px; display: inline-block; }
+
+/*  1.页眉部分
+----------------------------------------------*/
+
+header
+{ position: relative; height: 227px; margin-bottom: 45px; border-bottom: 3px solid #000; }
+
+/*  1.1 logo部分 ------------*/
+
+#logo
+{ float: left; width: 360px; margin-right: 55px; }
+
+/*  1.1.1 品牌 ------------*/
+
+#logo h1
+{ padding-top: 29px; padding-bottom: 39px; }
+
+#logo a
+{ color: #000; }
+
+#logo a:hover
+{ text-decoration: none; background-color: #ffc; }
+
+#logo h2
+{ font-size: 18px; font-weight: normal; line-height: 24px; color: #999; }
+
+#logo form
+{ position: relative; width: 335px; height: 40px; margin-top: 31px; padding: 6px 9px 14px; border: 1px solid #dfe1c9; border-radius: 3px; background-color: #f4f6de; }
+
+#logo h5
+{ padding-bottom: 2px; color: #666; }
+
+/*  1.1.2 寻找 ------------*/
+
+#logo label
+{ display: none; }
+
+#logo input[type='text']
+{ font-family: Verdana, sans-serif; font-size: 10px; width: 126px; height: 15px; margin-right: 7px; padding: 3px 0; text-indent: 3px; letter-spacing: 0; color: #666; border: 2px solid #dfe1c9; }
+
+#logo input[type='text']:focus
+{ border-color: #aaac97; }
+
+#logo input[type='submit']
+{ font-family: Verdana, sans-serif; font-weight: bold; float: right; width: 32px; height: 18px; margin-top: 4px; cursor: pointer; color: #fff; border: none; border-radius: 3px; background-color: #c8cab6; text-shadow: 1px 1px 2px #777; }
+
+#logo input[type='submit']:hover
+{ background-color: #aaac97; }
+
+/*  1.2 导航部分 ------------*/
+
+#topnav
+{ position: relative; float: left; width: 585px; }
+
+/*  1.2.1 导航 ------------*/
+
+#topnav .nav li
+{ font-family: Helvetica, Arial, sans-serif; font-size: 19px; font-weight: bold; height: 196px; padding: 30px 10px 0; }
+
+#topnav .home a
+{ padding-left: 20px; background: url(../images/site/nav_back.gif) left 5px no-repeat; }
+
+.home #topnav .home,
+.routes #topnav .routes,
+.about #topnav .about,
+.shop #topnav .shop
+{ background-color: #f5f5f5; }
+
+.home #topnav .home a,
+.routes #topnav .routes a,
+.about #topnav .about a,
+.shop #topnav .shop a
+{ color: #278dab; }
+
+.home #topnav .home a:hover,
+.routes #topnav .routes a:hover,
+.about #topnav .about a:hover,
+.shop #topnav .shop a:hover
+{ text-decoration: none; color: #000; }
+
+/*  1.2.2  用户 ------------*/
+
+#user
+{ font-size: 10px; position: absolute; top: 0; right: 0; width: 195px; height: 39px; padding: 9px 6px 10px; border: 1px solid #d3e4d3; border-top: none; border-bottom-right-radius: 3px; border-bottom-left-radius: 3px; background-color: #e8f9e9; }
+
+#user img
+{ float: left; width: 35px; height: 35px; margin-right: 10px; padding: 2px; border-radius: 2px; box-shadow: 1px 1px 5px #999; }
+
+#user div:first-of-type
+{ font-style: italic; margin-top: 1px; margin-bottom: 2px; color: #555; }
+
+#user div:first-of-type a
+{ text-decoration: underline; color: #555; }
+
+#user div:first-of-type a:hover
+{ color: #000; }
+
+#user div:last-child
+{ font-family: Verdana, sans-serif; font-size: 12px; font-weight: bold; color: #999; }
+
+#user div:last-child a
+{ color: #999; }
+
+#user div:last-child a:hover
+{ text-decoration: none; color: #666; }
+
+/*  1.2.3  格言 ------------*/
+
+blockquote
+{ font-family: Times; position: absolute; top: 87px; left: 0; height: 144px; padding: 0 80px 0 10px; background: url(../images/site/branding_johnmuir.jpg) right -4px no-repeat; }
+
+blockquote p
+{ font-style: italic; line-height: 24px; margin-bottom: 12px; }
+
+blockquote cite
+{ font-size: 11px; letter-spacing: 1.5px; color: #666; }
+
+/*  2.主体部分
+----------------------------------------------*/
+
+section,
+aside
+{ margin-bottom: 30px; padding-bottom: 30px; border-bottom: 1px dotted #ccc; }
+
+/*  2.1 海拔图 ------------*/
+
+/*  2.1.1 标题 ------------*/
+
+#last-route h2 span
+{ font-weight: normal; margin-left: 6px; color: #390; }
+
+/*  2.1.2 海拔图内容 ------------*/
+
+#altitude
+{ float: left; width: 660px; margin-right: 20px; }
+
+/*  2.1.2.1 导航 ------------*/
+
+#altitude .nav
+{ font-family: Verdana, sans-serif; font-weight: bold; float: left; }
+
+#altitude .nav li
+{ padding: 7px 10px 7px; }
+
+#altitude .nav a:hover
+{ text-decoration: none; color: #000; }
+
+#altitude .nav li.active
+{ border-top-left-radius: 3px; border-top-right-radius: 3px; background-color: #dff1f1; }
+
+#altitude .nav li.active a
+{ color: #000; }
+
+#altitude .nav a
+{ color: #666; }
+
+/*  2.1.2.2 工具 ------------*/
+
+#altitude .tool
+{ float: right; }
+
+#altitude .tool li
+{ margin-left: 15px; padding: 8px 0 6px 16px; background-repeat: no-repeat; background-position: left 9px; }
+
+#altitude .tool .share
+{ background-image: url(../images/site/icon_share.gif); }
+
+#altitude .tool .print
+{ background-image: url(../images/site/icon_print.gif); }
+
+#altitude .tool .edit
+{ background-image: url(../images/site/icon_edit.gif); }
+
+/*  2.1.2.3 趋势图 ------------*/
+
+#altitude .chart
+{ position: relative; clear: both; width: 100%; height: 195px; background: #dff1f1 url(../images/site/elevation_home.gif) center bottom no-repeat; }
+
+#altitude .chart li
+{ font-family: Verdana, sans-serif; font-size: 9px; position: absolute; }
+
+#altitude .chart a
+{ display: block; padding-left: 15px; color: #333; background: url(../images/site/elevation_marker.png) left center no-repeat; }
+
+#altitude .chart a:hover
+{ text-decoration: none; }
+
+#altitude .chart img
+{ display: none; }
+
+#altitude .chart a:hover img
+{ position: absolute; top: -19px; right: -63px; display: block; padding: 7px 7px 7px 14px; background: url(../images/site/elevation_marker_image_bg.png) 2px 3px no-repeat; }
+
+#altitude .chart .marker01
+{ top: 123px; left: 97px; }
+
+#altitude .chart .marker02
+{ top: 50px; left: 237px; }
+
+#altitude .chart .marker03
+{ top: 95px; left: 377px; }
+
+#altitude .chart .marker04
+{ top: 137px; left: 517px; }
+
+/*  2.1.3 照片 ------------*/
+
+#photo
+{ position: relative; float: left; width: 310px; margin-top: 32px; border: 5px solid #fff; border-radius: 5px; box-shadow: 1px 1px 5px #999; }
+
+#photo p
+{ font-family: Georgia, serif; font-size: 13px; font-style: italic; line-height: 16px; position: absolute; bottom: 0; left: 0; width: 300px; padding: 5px; color: #fff; background-color: rgba(0,0,0,.5); }
+
+/*  2.2 信息 ------------*/
+
+.more
+{ font-size: 9px; font-weight: normal; font-style: italic; margin-left: 6px; color: #666; }
+
+.eleva
+{ font-family: Verdana, sans-serif; font-size: 12px; font-weight: bold; margin-top: 5px; color: #390; }
+
+#info
+{ margin-bottom: 28px; padding-bottom: 40px; }
+
+#info div
+{ float: left; width: 320px; margin-right: 20px; }
+
+/*  2.2.1 其它路线 ------------*/
+
+#other-routes ul
+{ background-color: #eee; }
+
+#other-routes li
+{ position: relative; padding: 10px 0 18px 84px; border-top: 1px solid #ddd; }
+
+#other-routes li:last-child
+{ border-bottom: 1px solid #ddd; }
+
+#other-routes h3
+{ font-family: Georgia, serif; font-size: 16px; }
+
+#other-routes a img
+{ position: absolute; top: 10px; left: 10px; border: 2px solid #ccc; }
+
+#other-routes a:hover img
+{ border-color: #999; }
+
+.create
+{ font-family: Helvetica,Arial,sans-serif; font-size: 8px; font-weight: bold; line-height: 24px; display: block; width: 103px; height: 24px; margin-top: 16px; padding-left: 20px; color: #fff; border-radius: 3px; background: #390 url(../images/site/icon_add.gif) 5px center no-repeat; text-shadow: 1px 1px 2px #666; }
+
+.create:hover
+{ text-decoration: none; background-color: #278dab; }
+
+/*  2.2.2 建议 ------------*/
+
+#recommend h3 a
+{ font-size: 18px; }
+
+#recommend img
+{ margin: 14px 0 10px; border: 5px solid #ccc; }
+
+#recommend p:first-of-type
+{ margin-bottom: 10px; }
+
+/*  2.2.3 成员 ------------*/
+
+div#member-routes
+{ margin-right: 0; }
+
+#member-routes ul
+{ padding: 0 10px; border: 1px solid #dedeaf; border-radius: 5px; background-color: #ffc; }
+
+#member-routes li
+{ position: relative; padding: 10px 0; border-top: 1px solid #fff; border-bottom: 1px solid #dedeaf; }
+
+#member-routes li:first-child
+{ border-top: none; }
+
+#member-routes li:last-child
+{ border-bottom: none; }
+
+#member-routes h3
+{ font-size: 18px; }
+
+#member-routes .from
+{ font-size: 10px; font-style: italic; display: block; margin-top: 3px; color: #666; }
+
+#member-routes img
+{ position: absolute; top: 10px; right: 10px; display: block; width: 35px; height: 35px; border: 2px solid #fff; border-radius: 2px; box-shadow: 1px 1px 5px #999; }
+
+#member-routes li:first-child img
+{ top: 20px; }
+
+/*  2.3 其它信息 ------------*/
+
+#other-info h4
+{ margin-bottom: 18px; margin-left: 1px; }
+
+#other-info h4 a
+{ color: #278dab; }
+
+#other-info h4 a:hover
+{ text-decoration: none; color: #186176; }
+
+/*  2.3.1 论坛 ------------*/
+
+#forum
+{ position: relative; float: left; margin-right: 63px; border-collapse: collapse; }
+
+#forum tr
+{ line-height: 28px; }
+
+#forum tr:nth-child(2n-1)
+{ background-color: #f4f6de; }
+
+#forum tr:last-child td
+{ border-bottom: 1px solid #ccc; }
+
+#forum td
+{ padding-left: 1px; border-top: 1px solid #ccc; }
+
+#forum tr td:first-child
+{ width: 261px; }
+
+#forum .user
+{ font-size: 12px; font-style: italic; width: 137px; }
+
+#forum .user a
+{ text-decoration: underline; color: #390; }
+
+#forum .user a:hover
+{ color: #030; }
+
+#forum .date
+{ font-family: Verdana,sans-serif; font-size: 12px; font-weight: bold; width: 85px; color: #666; }
+
+.community
+{ position: absolute; top: -29px; left: -30px; width: 28px; height: 280px; border: 1px dotted #ccc; border-right: none; }
+
+.community img
+{ position: absolute; top: 108px; left: -5px; }
+
+
+/*  2.3.2 Flickr ------------*/
+
+#flickr
+{ float: right; margin-right: -1px; }
+
+#flickr span
+{ color: #df1ac4; }
+
+#flickr ul
+{ width: 450px; padding-left: 1px; }
+
+#flickr li
+{ float: left; margin-right: 15px; margin-bottom: 15px; }
+
+#flickr li:nth-child(5n)
+{ margin-right: 0; }
+
+#flickr img
+{ display: block; border: 4px solid #fff; border-radius: 2px; box-shadow: 1px 1px 5px #999; }
+
+/*  3.页脚部分
+----------------------------------------------*/
+
+footer
+{ font-family: Helvetica, Arial, sans-serif; margin-top: 45px; margin-bottom: 18px; }
+
+/*  3.1 导航版权 ------------*/
+
+#footernav
+{ font-weight: bold; float: left; }
+
+/*  3.1.1 导航 ------------*/
+
+#footernav .nav
+{ margin-bottom: 11px; }
+
+#footernav .nav a
+{ margin-right: 13px; color: #278dab; }
+
+#footernav .nav a:hover
+{ text-decoration: none; color: #186176; }
+
+#footernav .nav li:first-child a
+{ color: #000; }
+
+#footernav .nav li:first-child a:hover
+{ text-decoration: underline; }
+
+/*  3.1.2 版权 ------------*/
+
+.copy
+{ font-size: 12px; color: #999; }
+
+.copy a
+{ color: #999; }
+
+.copy a:hover
+{ text-decoration: none; color: #666; }
+
+/*  3.2 简介 ------------*/
+
+.summary
+{ font-size: 12px; font-weight: bold; position: relative; float: right; width: 255px; margin-top: -4px; padding-right: 65px; color: #b0b0b0; }
+
+.summary p a
+{ color: #278dab; }
+
+.summary p a:hover
+{ text-decoration: none; color: #186176; }
+
+.summary > a
+{ position: absolute; top: 3px; right: 0; display: block; width: 55px; height: 50px; background: url(../images/site/siteinfo_erskine_link.gif) 0 0 no-repeat; }
+
+.summary > a:hover
+{ background-position: 0 -50px; }
+
+/*  END
+----------------------------------------------*/

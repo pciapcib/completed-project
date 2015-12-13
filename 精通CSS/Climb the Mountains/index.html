@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Climb the Mountains</title>
+        <link rel="stylesheet" href="css/reset.css">
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body class="home">
+        <div id="wrapper">
+            <!-- 页眉部分 -->
+            <header class="clearfix">
+                <!-- logo部分 -->
+                <div id="logo">
+                    <h1><a href="#">Climb the mountains</a></h1>
+                    <h2>Reach <strong>new heights</strong> by creating, sharing and recording your hiking routes with others.</h2>
+                    <form action="">
+                        <h5>FIND A ROUTE:</h5>
+                        <label for="search-route">Keywords</label>
+                        <input type="text" id="search-route" title="Keywords" value="Keywords">
+                        <select name="find-route">
+                            <option value="Select region">Select region</option>
+                            <option value="Peak District">Peak District</option>
+                            <option value="Lake District">Lake District</option>
+                            <option value="Snowdonia">Snowdonia</option>
+                            <option value="Dartmoor">Dartmoor</option>
+                            <option value="Pembrokeshire Coast">Pembrokeshire Coast</option>
+                            <option value="North York Moors">North York Moors</option>
+                            <option value="Yorkshire Dales">Yorkshire Dales</option>
+                            <option value="Exmoor">Exmoor</option>
+                            <option value="Northumberland">Northumberland</option>
+                            <option value="Brecon Beacons">Brecon Beacons</option>
+                            <option value="The Broads">The Broads</option>
+                            <option value="New Forest">New Forest</option>
+                            <option value="South Downs">South Downs</option>
+                        </select>
+                        <input type="submit" value="Go">
+                    </form>
+                </div>
+                <!-- 导航部分 -->
+                <div id="topnav">
+                    <!-- 导航 -->
+                    <ul class="nav">
+                        <li class="home"><a href="#">Home</a></li>
+                        <li class="routes"><a href="#">Routes</a></li>
+                        <li class="about"><a href="#">About</a></li>
+                        <li class="shop"><a href="#">Shop</a></li>
+                    </ul>
+                    <!-- 用户 -->
+                    <div id="user">
+                        <a href="#"><img src="images/content/avatar_colly.jpg" height="35" width="35" alt="avatar"></a>
+                        <div>Logged in as <a href="#">collylogic</a></div>
+                        <div><a href="#">ACCOUNT</a>  |  <a href="#">LOG OUT</a></div>
+                    </div>
+                    <!-- 格言 -->
+                    <blockquote>
+                        <P>“Climb the mountains and get their good tidings. Nature's peace will flow into you as sunshine flows into trees. The winds will blow their own freshness into you, and the storms their energy, while cares will drop away from you like the leaves of Autumn.”</P>
+                        <p><cite>JOHN MUIR, 1903</cite></p>
+                    </blockquote>
+                </div>
+            </header>
+            <!-- 主体部分 -->
+            <div id="mainbody">
+                <!-- 海拔图 -->
+                <section id="last-route" class="clearfix">
+                    <!-- 标题 -->
+                    <h2>Your latest route:<span>Scafell Pike via Corridor Route, 12th May 2009</span></h2>
+                    <!-- 海拔图内容 -->
+                    <div id="altitude">
+                        <!-- 导航  -->
+                        <ul class="nav">
+                            <li><a href="#">Map</a></li>
+                            <li class="active"><a href="#">Elevation</a></li>
+                            <li><a href="#">Download GPS</a></li>
+                            <li><a href="#">Full routesheet</a></li>
+                        </ul>
+                        <!-- 工具 -->
+                        <ul class="tool nav">
+                            <li class="share"><a href="#">Share</a></li>
+                            <li class="print"><a href="#">Print</a></li>
+                            <li class="edit"><a href="#">Edit</a></li>
+                        </ul>
+                        <!-- 趋势图 -->
+                        <ul class="chart">
+                            <li class="marker01">
+                                <a href="#">
+                                    <strong>1,442 ft</strong>
+                                    <img src="images/content/elevation_photo_1.jpg" height="40" width="40">
+                                </a>
+                            </li>
+                            <li class="marker02">
+                                <a href="#">
+                                    <strong>3,133 ft</strong>
+                                    <img src="images/content/elevation_photo_2.jpg" height="40" width="40">
+                                </a>
+                            </li>
+                            <li class="marker03">
+                                <a href="#">
+                                    <strong>2,398 ft</strong>
+                                    <img src="images/content/elevation_photo_3.jpg" height="40" width="40">
+                                </a>
+                            </li>
+                            <li class="marker04">
+                                <a href="#">
+                                    <strong>1,286 ft</strong>
+                                    <img src="images/content/elevation_photo_4.jpg" height="40" width="40">
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <!-- 照片 -->
+                    <div id="photo">
+                        <img src="images/content/campsite.jpg" height="185" width="310" alt="Campsite">
+                        <p>From the campsite bridge towards the village, Great Gable and Lingmell.</p>
+                    </div>
+                </section>
+                <!-- 信息 -->
+                <section id="info" class="clearfix">
+                    <!-- 其他路线 -->
+                    <div id="other-routes">
+                        <h2>Your other routes<a href="#" class="more">(view all)</a></h2>
+                        <ul>
+                            <li>
+                                <h3><a href="#"><img src="images/content/route_thumbnail_1.jpg" height="45" width="60">Kinderscout circuit</a></h3>
+                                <p class="eleva">13.6 miles | Elevation 2,400ft</p>
+                            </li>
+                            <li>
+                                <h3><a href="#"><img src="images/content/route_thumbnail_2.jpg" height="45" width="60">Great Gable</a></h3>
+                                <p class="eleva">8.9 miles | Elevation 3,900ft</p>
+                            </li>
+                            <li>
+                                <h3><a href="#"><img src="images/content/route_thumbnail_3.jpg" height="45" width="60">Snowdon Horseshoe</a></h3>
+                                <p class="eleva">11.6 miles | Elevation 4,235ft</p>
+                            </li>
+                            <li>
+                                <h3><a href="#"><img src="images/content/route_thumbnail_1.jpg" height="45" width="60">Kinderscout circuit</a></h3>
+                                <p class="eleva">13.6 miles | Elevation 2,400ft</p>
+                            </li>
+                        </ul>
+                        <a href="#" class="create">Create new route</a>
+                    </div>
+                    <!-- 建议 -->
+                    <div id="recommend">
+                        <h2>Recommended for you<a href="#" class="more">(view all)</a></h2>
+                        <h3><a href="#">Win Hill and Ladybower</a></h3>
+                        <img src="images/content/route_recommended_map.jpg" height="212" width="310" alt="Route Recommended Map">
+                        <p>Classic route over the popular Peak summit and along the banks of Ladybower reservoir. Classic route over the popular Peak summit and along the banks of Ladybower reservoir.</p>
+                        <p class="eleva">7.8 miles | Elevation 5,030ft</p>
+                    </div>
+                    <!-- 成员 -->
+                    <div id="member-routes">
+                        <h2>Members' routes<a href="#" class="more">(view all)</a></h2>
+                        <ul>
+                            <li>
+                                <h3><a href="#">Kinderscout ridgewalk circuit</a></h3>
+                                <p class="eleva">13.6 miles | Elevation 2,400ft</p>
+                                <a href="#" class="from">from Glen Swinfield<img src="images/content/avatar_swinfield.jpg" height="35" width="35"></a>
+                            </li>
+                            <li>
+                                <h3><a href="#">Castleton Ridges Walk</a></h3>
+                                <p class="eleva">12.2 miles | elevation 1,343ft</p>
+                                <a href="#" class="from">from Phil Swan<img src="images/content/avatar_swan.jpg" height="35" width="35"></a>
+                            </li>
+                            <li>
+                                <h3><a href="#">Branston and Eaton villages</a></h3>
+                                <p class="eleva">5.7 miles | elevation 1,213ft</p>
+                                <a href="#" class="from">from Gregory Wood<img src="images/content/avatar_wood.jpg" height="35" width="35"></a>
+                            </li>
+                            <li>
+                                <h3><a href="#">Ilkley Moor and Otley</a></h3>
+                                <p class="eleva">24.7 miles | elevation 2,473ft</p>
+                                <a href="#" class="from">from Jamie Pittock<img src="images/content/avatar_pittock.jpg" height="35" width="35"></a>
+                            </li>
+                        </ul>
+                    </div>
+                </section>
+                <!-- 其他信息 -->
+                <aside id="other-info" class="clearfix">
+                    <!-- 论坛 -->
+                    <div id="forum">
+                        <h4><a href="#">From the forums</a></h4>
+                        <table>
+                            <tbody>
+                                <tr>
+                                    <td><a href="#">Help! I am lost</a></td>
+                                    <td class="user"><a href="#">Denis Willfeng</a></td>
+                                    <td class="date">13/05/09</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="#">Best boots for under £100</a></td>
+                                    <td class="user"><a href="#">Sapil Linewph</a></td>
+                                    <td class="date">29/04/09</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="#">Scrambling in Wales</a></td>
+                                    <td class="user"><a href="#">Rory O’Deggow</a></td>
+                                    <td class="date">25/04/09</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="#">Do you take your dog walking?</a></td>
+                                    <td class="user"><a href="#">Mike J Pacitto</a></td>
+                                    <td class="date">09/03/09</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="#">I’m too old for this!</a></td>
+                                    <td class="user"><a href="#">Bell Canpismmo</a></td>
+                                    <td class="date">29/02/09</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <div class="community"><img src="images/site/community_home_h2.gif" height="83" width="10"></div>
+                    </div>
+                    <!-- Flickr -->
+                    <div id="flickr">
+                        <h4><a href="#">Flick<span>r</span></a></h4>
+                        <ul>
+                            <li><a href="#"><img src="images/content/flickr_1.jpg" height="70" width="70"></a></li>
+                            <li><a href="#"><img src="images/content/flickr_2.jpg" height="70" width="70"></a></li>
+                            <li><a href="#"><img src="images/content/flickr_3.jpg" height="70" width="70"></a></li>
+                            <li><a href="#"><img src="images/content/flickr_4.jpg" height="70" width="70"></a></li>
+                            <li><a href="#"><img src="images/content/flickr_5.jpg" height="70" width="70"></a></li>
+                            <li><a href="#"><img src="images/content/flickr_6.jpg" height="70" width="70"></a></li>
+                            <li><a href="#"><img src="images/content/flickr_7.jpg" height="70" width="70"></a></li>
+                            <li><a href="#"><img src="images/content/flickr_8.jpg" height="70" width="70"></a></li>
+                            <li><a href="#"><img src="images/content/flickr_9.jpg" height="70" width="70"></a></li>
+                            <li><a href="#"><img src="images/content/flickr_10.jpg" height="70" width="70"></a></li>
+                        </ul>
+                    </div>
+                </aside>
+            </div>
+            <!-- 页脚部分 -->
+            <footer class="clearfix">
+                <!-- 导航版权 -->
+                <div id="footernav">
+                    <!-- 导航 -->
+                    <ul class="nav">
+                        <li><a href="#" class="home">Climb the mountains</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Contact</a></li>
+                        <li><a href="#">Help</a></li>
+                        <li><a href="#">Privacy</a></li>
+                        <li><a href="#">Terms</a></li>
+                        <li><a href="#">FAQ</a></li>
+                        <li><a href="#">API</a></li>
+                    </ul>
+                    <!-- 版权 -->
+                    <p class="copy">Copyright &copy; 2009 <a href="#">Simon Collison</a>. All rights reserved</p>
+                </div>
+                <!-- 简介 -->
+                <div class="summary">
+                    <p>This is a fictitious website created strictly for educational purposes. It may not be reproduced without permission. <a href="#">Buy CSS Mastery at Amazon</a>.</p>
+                    <a href="#"></a>
+                </div>
+            </footer>
+        </div>
+    </body>
+</html>

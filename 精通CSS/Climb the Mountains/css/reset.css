@@ -1,0 +1,102 @@
+/*
+
+	RESETS by ERSKINE DESIGN
+	VERSION 1.0
+
+	RESET STYLESHEET
+
+*/
+
+	html, body, div, span,
+	h1, h2, h3, h4, h5, h6, p, blockquote,
+	a, cite, em, img, q,
+	dl, dt, dd, ol, ul, li,
+	fieldset, form, label, legend,
+	table, caption, tbody, tfoot, thead, tr, th, td
+	{
+	    font-family: inherit;
+	    font-size: 100%;
+	    font-weight: inherit;
+	    font-style: inherit;
+
+	    margin: 0;
+	    padding: 0;
+
+	    vertical-align: baseline;
+
+	    border: 0;
+	    outline: 0;
+	}
+
+	:focus
+	{
+	    outline: 0;
+	}
+
+	body
+	{
+	    line-height: 1;
+
+	    color: black;
+	    background: white;
+	}
+
+	ol,
+	ul
+	{
+	    list-style: none;
+	}
+
+	table
+	{
+	    border-spacing: 0;
+	    border-collapse: separate;
+	}
+
+	caption,
+	th,
+	td
+	{
+	    font-weight: normal;
+
+	    text-align: left;
+	}
+
+	blockquote:before,
+	blockquote:after,
+	q:before,
+	q:after
+	{
+	    content: '';
+	}
+
+	blockquote,
+	q
+	{
+	    quotes: '' '';
+	}
+
+	input
+	{
+	    vertical-align: middle;
+	}
+
+	img
+	{
+	    display: block;
+	}
+
+	.clearfix:after
+    {
+        display: block;
+        clear: both;
+
+        height: 0;
+
+        content: '\200B';
+    }
+
+    .clearfix
+    {
+        *zoom: 1;
+    }
