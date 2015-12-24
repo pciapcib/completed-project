@@ -1,0 +1,17 @@
+body
+{ font-family: 'Helvetica', 'Arial', serif; margin: 1em 10%; color: #333; background-color: #ccc; }
+
+a
+{ font-weight: bold; text-decoration: none; color: #c60; }
+
+ul
+{ padding: 0; }
+
+li
+{ float: left; padding: 1em; list-style: none; }
+
+li:first-child
+{ padding-left: 0; }
+
+img
+{ display: block; clear: both; }

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Jay Skript and the Domsters: Contact the band</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body id="contact">
+    <header>
+        <div id="logo">
+            <img src="images/logo.gif" height="250" width="350" alt="logo">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="photos.html">Photos</a></li>
+                <li><a href="live.html">Live</a></li>
+                <li><a href="contact.html" class="active">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section>
+        <h1>Contact the band</h1>
+        <form method="post" action="submit.html">
+            <p>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" placeholder="Your name" required>
+            </p>
+            <p>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" placeholder="Your email address" required>
+            </p>
+            <p>
+                <label for="message">Message:</label>
+                <textarea cols="35" rows="7" id="message" name="message" placeholder="Write your message here." required></textarea>
+            </p>
+            <input type="submit" value="Send">
+        </form>
+    </section>
+    <script src="js/function.js"></script>
+</body>
+</html>

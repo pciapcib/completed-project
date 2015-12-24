@@ -1,0 +1,220 @@
+
+/*
+
+    Webname by Kamisama
+
+    Ver 1.0
+
+    Contents ----------
+
+        0.common
+            0.1 body
+            0.2 heading
+            0.3 hyperlink
+        1.header
+            1.1 logo
+            1.2 nav
+        2.section
+            2.1 home
+            2.2 about
+            2.3 photos
+            2.4 live
+            2.5 contact
+
+    -------------------
+
+    Colors ------------
+
+        color #hexadecimal
+
+    -------------------
+
+*/
+
+/*  0.common
+-----------------------------------------------------------*/
+
+/*  0.1 body ------------------------*/
+
+body
+{ font-family: Helvetica, Arial, sans-serif; font-size: 12px; max-width: 80em; margin: 12px 10%; background: #334 url(../images/background.gif) repeat-x; }
+
+/*  0.2 heading ------------------------*/
+
+h1,
+h2,
+h3
+{ font-family: sans-serif; }
+
+h1
+{ font-size: 29px; margin-top: 3px; }
+
+h2
+{ font-size: 22px; margin-top: 23px; margin-bottom: 14px; }
+
+h3
+{ font-size: 17px; margin-top: 18px; margin-bottom: 5px; }
+
+/*  0.3 hyperlink ------------------------*/
+
+a
+{ font-weight: bold; text-decoration: none; color: #345; background-color: #eb6; }
+
+a:hover
+{ color: #667; background-color: #fb5; }
+
+a:active
+{ color: #778; background-color: #ec8; }
+
+/*  1.header
+-----------------------------------------------------------*/
+
+header
+{ border: 1px solid #667; border-bottom: none; }
+
+/*  1.1 logo ------------------------*/
+
+#logo
+{ height: 253px; background: #334 url(../images/guitarist.gif) right 30px no-repeat; }
+
+#about #logo
+{ background-image: url(../images/lineup.gif); }
+
+#photos #logo
+{ background-image: url(../images/basshead.gif); }
+
+#live #logo
+{ background-image: url(../images/bassist.gif); }
+
+#contact #logo
+{ background-image: url(../images/drummer.gif); }
+
+/*  1.2 nav ------------------------*/
+
+header nav
+{ font-size: 0; line-height: 27px; height: 27px; padding-left: 10%; border-right: 1px solid #667; border-left: 1px solid #667; background: url(../images/navbar.gif) repeat-x; }
+
+header nav li
+{ display: inline-block; }
+
+header nav a
+{ font-size: 13px; display: block; padding: 0 24px; color: #eef; border-left: 1px solid #99a; background-color: #789; }
+
+header nav li:last-child a
+{ border-right: 1px solid #99a; }
+
+header nav a:hover
+{ color: #445; background-color: #eb6; }
+
+header nav a:active
+{ color: #667; background-color: #ec8; }
+
+header nav a.active
+{ color: #eef; background-color: #799; }
+
+/*  2.section
+-----------------------------------------------------------*/
+
+section
+{ padding: 24px 10%; color: #223; border: 1px solid #667; border-top: none; background-color: #edc; }
+
+section p
+{ line-height: 21px; }
+
+/*  2.1 home ------------------------*/
+
+#home section p
+{ margin-top: 14px; margin-bottom: 12px; }
+
+#slideshow
+{ position: relative; overflow: hidden; width: 150px; height: 150px; }
+
+#frame
+{ position: relative; z-index: 1; }
+
+#preview
+{ position: absolute; top: 0; left: 0; }
+
+/*  2.2 about ------------------------*/
+
+#intronav
+{ margin-top: 2px; list-style-type: disc; }
+
+#intronav a
+{ line-height: 21px; }
+
+#about section p
+{ margin-top: 12px; }
+
+#about section p:last-child
+{ margin-bottom: 12px; }
+
+article
+{ display: none; }
+
+/*  2.3 photos ------------------------*/
+
+#imagegallery
+{ font-size: 0; margin-top: 2px; margin-bottom: 23px; }
+
+#imagegallery li
+{ display: inline-block; margin-right: 3px; }
+
+#photos section img
+{ border: 1px solid #ba9; outline: 1px solid #dcb; }
+
+#photos section h6
+{ margin-bottom: 17px; }
+
+#placeholder
+{ display: block; margin-bottom: 7px; }
+
+/*  2.4 live ------------------------*/
+
+#live table
+{ margin-top: 2px; border-spacing: 2px; }
+
+#live table th
+{ font-weight: bold; line-height: 21px; height: 21px; text-align: center; color: #edc; background-color: #455; }
+
+#live table td
+{ line-height: 21px; height: 21px; padding: 6px 36px; color: #223; }
+
+#live table tr:nth-child(2n+1) td
+{ background-color: #ec8; }
+
+#live table tr:nth-child(2n) td
+{ background-color: #eb6; }
+
+#live table tr:hover td
+{ background-color: #cba; }
+
+#live dl
+{ font-size: 0; }
+
+#live dt,
+#live dd
+{ font-size: 12px; display: inline-block; }
+
+#live dt
+{ margin-right: 12px; margin-bottom: 5px; }
+
+#live dd
+{ margin-right: 36px; }
+
+/*  2.5 contact ------------------------*/
+
+#contact form
+{ margin-top: 14px; }
+
+#contact label
+{ display: block; margin-top: 12px; }
+
+#contact input[type='text']
+{ font-size: 12px; line-height: 14px; width: 146px; height: 12px; }
+
+#contact textarea
+{ font-family: Arial; font-size: 10px; width: 332px; margin-bottom: 13px; padding: 0; }
+
+#contact input[type='submit']
+{ font-size: 12px; margin-bottom: 3px; padding: 0; }
