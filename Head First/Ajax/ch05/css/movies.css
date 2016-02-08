@@ -1,0 +1,65 @@
+body {
+  background: url('../images/bgBody.png');
+  font-family: Trebuchet MS, Verdana, Helvetica, Arial, san-serif;
+  margin: 0;
+  text-align: center;
+}
+
+#wrapper {
+  background: url('../images/bgContent.jpg') 0 0;
+  color: #ddd;
+  height: 555px;
+  margin: 0 auto;
+  padding: 115px 180px 0 180px;
+  position: relative;
+  text-align: left;
+  width: 440px;
+}
+
+ul { padding: 0; }
+li { font-size: 12px; list-style: none; margin: 0 0 4px 0; }
+li.tip {
+  color: red;
+  font-size: 11px;
+  font-style: italic;
+  text-align: right;
+  padding: 0 2px;
+  height: 25px;
+}
+
+label {
+  float: left;
+  margin: 4px 6px 0 0;
+  text-align: right;
+  width: 160px;
+}
+input { border: 2px solid #1E3755; padding: 0 2px; width: 216px; }
+select { border: 2px solid #1E3755; width: 224px; }
+textarea { border: 2px solid #1E3755; padding: 0 2px; width: 216px; }
+#register { width: 100px; }
+
+#username, #password1, #password2 {
+  background: #fff url('../images/status.gif') 202px 0 no-repeat;
+  padding: 0 20px 0 2px;
+  width: 198px;
+}
+
+.thinking { background-position: 202px -19px !important; }
+.approved { background-position: 202px -35px !important; }
+.denied {
+  background-color: #FF8282 !important;
+  background-position: 202px -52px !important;
+}
+
+#coverBar {
+  height: 115px;
+  left: 182px;
+  overflow: hidden;
+  position: absolute;
+  top: 516px;
+  width: 440px;
+}
+#coverBar img {
+  position: absolute;
+  top: 0;
+}
