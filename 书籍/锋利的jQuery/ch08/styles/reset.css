@@ -1,0 +1,129 @@
+
+/*
+
+    Reset by Kamisama
+
+    RESET STYLESHEET
+
+*/
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+strong,
+em,
+a,
+img,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+form,
+label,
+table,
+caption,
+thead,
+tbody,
+tfoot,
+tr,
+th,
+td {
+    font-family: inherit;
+    font-size: 100%;
+    font-style: inherit;
+
+    margin: 0;
+    padding: 0;
+
+    vertical-align: baseline;
+
+    border: 0;
+    outline: 0;
+}
+
+body {
+    line-height: 1;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+table {
+    border-spacing: 0;
+    border-collapse: separate;
+
+    vertical-align: middle;
+}
+
+caption,
+th,
+td {
+    font-weight: normal;
+
+    text-align: left;
+    vertical-align: middle;
+}
+
+a img {
+    border: none;
+}
+
+header,
+nav,
+section,
+hgroup,
+article,
+menu,
+summary,
+aside,
+footer, {
+    font-family: inherit;
+    font-size: 100%;
+    font-weight: inherit;
+    font-style: inherit;
+
+    display: block;
+
+    margin: 0;
+    padding: 0;
+
+    vertical-align: baseline;
+
+    border: 0;
+    outline: 0;
+}
+
+video
+audio, {
+    display: inline-block;
+
+    *display: inline;
+    *zoom: 1;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+.clearfix:after {
+    display: block;
+    clear: both;
+
+    height: 0;
+
+    content: '\200B';
+}
+
+.clearfix {
+    *zoom: 1;
+}

@@ -1,0 +1,28 @@
+body {
+    font: 80% Arial, Helvetica, sans-serif;
+    line-height: 180%;
+
+    margin: 0;
+    padding: 40px;
+
+    color: #555;
+    background: #fff;
+}
+p {
+    clear: both;
+
+    margin: 0;
+    padding: .5em 0;
+}
+/* tooltip */
+#tooltip {
+    position: absolute;
+
+    display: none;
+
+    padding: 1px;
+
+    color: #333;
+    border: 1px solid #333;
+    background: #f7f5d1;
+}

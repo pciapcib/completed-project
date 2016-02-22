@@ -1,0 +1,41 @@
+body {
+    font: 80% Arial, Helvetica, sans-serif;
+    line-height: 180%;
+
+    margin: 0;
+    padding: 40px;
+
+    color: #555;
+    background: #fff;
+}
+img {
+    border: none;
+}
+ul,
+li {
+    margin: 0;
+    padding: 0;
+}
+li {
+    display: inline;
+    float: left;
+
+    margin-right: 10px;
+
+    list-style: none;
+
+    border: 1px solid #aaa;
+}
+
+/* tooltip */
+#tooltip {
+    position: absolute;
+
+    display: none;
+
+    padding: 2px;
+
+    color: #fff;
+    border: 1px solid #ccc;
+    background: #333;
+}

@@ -1,0 +1,18 @@
+body {
+    font-size: 12px;
+
+    margin: 0;
+    padding: 0;
+}
+#messagewindow {
+    overflow: auto;
+
+    height: 250px;
+    padding: 5px;
+
+    border: 1px solid;
+}
+#wrapper {
+    width: 438px;
+    margin: auto;
+}
