@@ -1,0 +1,26 @@
+body {
+    padding-top: 50px;
+}
+
+#left-navbar {
+    position: fixed;
+    top: 50px;
+    bottom: 0;
+
+    padding: 20px 0;
+
+    border-right: 1px solid #eee;
+    background-color: #ddd;
+}
+
+#left-navbar .nav-stacked {
+    margin-bottom: 20px;
+}
+
+#left-navbar a {
+    border-radius: 0;
+}
+
+#mainbody .page-header {
+    margin-top: 20px;
+}

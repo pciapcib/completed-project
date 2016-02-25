@@ -1,0 +1,46 @@
+body {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.carousel {
+    margin-bottom: 60px;
+}
+
+.carousel .item {
+    height: 500px;
+    background-color: #000;
+}
+
+.carousel-caption p {
+    margin-bottom: 20px;
+    font-size: 20px;
+    line-height: 1.8;
+}
+
+.carousel img {
+    width: 100%;
+}
+
+#summary-container .col-md-4 {
+    text-align: center;
+}
+
+hr.divider {
+    margin: 40px 0;
+}
+
+.feature {
+    padding: 30px;
+}
+
+.feature-heading {
+    font-size: 50px;
+    color: #2a6496;
+    margin-top: 120px;
+}
+
+.feature-heading .text-muted {
+    font-size: 28px;
+    color: #999;
+}
